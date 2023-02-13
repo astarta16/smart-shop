@@ -349,7 +349,7 @@ footer{
 
 
 
-body main .pages-container .contact-info h1{
+.pages-container .contact-info h1{
     font-family:"poppins-400", sans-serif;
     font-weight: 500;
     font-size: 28px;
@@ -420,3 +420,8 @@ body main .pages-container .map-forms .contact-forms  input[type=submit] {
 .pages-container{
     margin-left: 100px;
 }
+
+textarea{
+    height: 200px;
+}
+
