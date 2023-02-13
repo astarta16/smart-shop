@@ -3,47 +3,47 @@
     width: 93%;
     margin: 0 auto;
 }
-.upper-header{
+.first-header{
     text-align:center;
     padding: 21px 0 50px 0;
 }
-.upper-header-li.left{
+.first-header-li.left{
     margin-right:285px;
     font-size: 24px;
     line-height: 36px;
     font-family:"oswald-500", sans-serif;
     font-weight: bold;
 }
-.logo-right{
+.logo-shop_side{
     color: #3F69FF;
 }
-.upper-header-li.middle{
+.first-header-li.middle{
     margin: 0 26px;
     font-size: 18px;
     line-height: 27px;
     font-family:"poppins-500", sans-serif;
 }
-.upper-header-li.right{
+.first-header-li.right{
     margin: 0 28px 0 254px;
     text-align: right;
 }
-.upper-header-li{
+.first-header-li{
     display:inline-block;
     vertical-align: middle;
 }
-.upper-header-li a:hover{
+.first-header-li a:hover{
     color: #0052CC;
     text-decoration-line: underline;
 }
-.down-header{
+.blue-header{
     background: #0052CC;
     padding: 11px 0;
 }
-.down-header-li{
+.blue-header-li{
     display: inline-block;
     vertical-align: middle;
 }
-.down-header-li.addition-word a{
+.blue-header-li.addition-word a{
     color: white;
     font-size: 14px;
     line-height: 21px;
