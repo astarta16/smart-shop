@@ -1,3 +1,4 @@
+/* header */
 .container{
     max-width: 1340px;
     width: 93%;
@@ -35,36 +36,57 @@
     color: #0052CC;
     text-decoration-line: underline;
 }
-.blue-header{
-    background: #0052CC;
-    padding: 11px 0;
+
+.header-line{
+    background-color: #0052CC;
+    border-radius: 0px;
 }
-.blue-header-li{
+.categories-menu-div, .header-line input{
     display: inline-block;
     vertical-align: middle;
 }
-.blue-header-li.addition-word a{
-    color: white;
+.categories-menu-title{
+    font-family:"poppins-400", sans-serif;
     font-size: 14px;
     line-height: 21px;
-    font-family:"poppins-400", sans-serif;
-    margin: 0 360px 0 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 17px;
+    
 }
-.search-input{
-    height:40px;
-    width:389px;
-    font-family:"poppins-400", sans-serif;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
-    padding:  3px 0 0 48px;
+.categories-menu-div{
+     margin: 21px 17px 17px 49px;
+}
+.input-div{
+    display: inline-block;
+    margin-left: 360px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+}
+.input-div div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-line input{
+    width: 389px;
+    height: 40px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 6px;
     font-size: 12px;
     line-height: 18px;
-    border-radius: 6px;
-    border: none;
-    outline:none;
+    text-transform: capitalize;
+   
+}
+.header-line input:focus{
+    border-color: #FFFFFF;
 }
 
-
+/* footer */
 footer{
     background-color:#0052CC;
     padding: 44px 0 50px 0;
@@ -121,9 +143,9 @@ footer{
     background-position: 218px 14px;
     padding: 4px 0 0 18px;
     margin-bottom:26px;
-
 }
 
+/* aboutus */
 .about_us-section{
     text-align: center;
 }
@@ -152,7 +174,6 @@ footer{
     font-family:"poppins-400", sans-serif;
     text-align: left;
 }
-
 .first-word{
     font-family:"poppins-700", sans-serif;
     font-weight: bold;
@@ -183,7 +204,6 @@ footer{
 .contact-core_values{
     margin-top:60px;
 }
-
 /*  blog page*/
 .blog-container{
     max-width: 1290px;
@@ -244,8 +264,6 @@ footer{
 .news.third{
     margin: 0 62px 0 31px;
 }
-
-
 .home-section{
     text-align: center;
     margin-bottom: 183px;
@@ -347,8 +365,7 @@ footer{
     font-family:"poppins-500", sans-serif;
 }
 
-
-
+/* contact */
 .pages-container .contact-info h1{
     font-family:"poppins-400", sans-serif;
     font-weight: 500;
@@ -381,7 +398,6 @@ body main .pages-container .map-forms .contact-forms input[type=tel] {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    
 }
 body main .pages-container .map-forms .contact-forms input[type=email], select, textarea {
     width: 100%;
@@ -410,17 +426,14 @@ body main .pages-container .map-forms .contact-forms  input[type=submit] {
     width: 581px;
     height: 600px;
 }
-
 .map{
     margin-left: 900px;
     margin-bottom: 100px;
     margin-top: -600px;
 }
-
 .pages-container{
     margin-left: 100px;
 }
-
 textarea{
     height: 200px;
 }
